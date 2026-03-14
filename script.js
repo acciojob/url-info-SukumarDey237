@@ -1,3 +1,3 @@
 //your JS code here. If required. 
-let loc = document.location
-alert (`The length of th URL is: ${String(loc.href).length}`)
+let url = document.location.href
+alert (`The length of the URL is: ${url.length}`)
